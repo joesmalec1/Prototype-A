@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8799e2e784b401c48847ec36ca81080f, type: 3}
+  m_Name: PlayerA
+  m_EditorClassIdentifier: 
+  m_UnitName: PlayerA
+  m_Model: {fileID: 1328841012964124671, guid: 6a6121d789853884a82d87e7e54c9f45, type: 3}
+  m_UnitClass: GridUnit
+  m_IdleAnimation: {fileID: 0}
+  m_MovementAnimation: {fileID: 0}
+  m_DamagedAnimation: {fileID: 0}
+  m_HealAnimation: {fileID: 0}
+  m_TravelSound: {fileID: 0}
+  m_DamagedSound: {fileID: 0}
+  m_HealSound: {fileID: 0}
+  m_DeathSound: {fileID: 0}
+  m_bLookAtTargets: 0
+  m_bIsFlying: 0
+  m_HeightOffset: 1
+  m_MovementShape: {fileID: 11400000, guid: e5878233c2bc97d43a5cfe8964ccd263, type: 2}
+  m_Abilities:
+  - unitAbility: {fileID: 11400000, guid: 0d03804bb5b349a4382143b59a068657, type: 2}
+    AssociatedAnimation: {fileID: 0}
+    ExecuteAfterTime: 0
+    AudioOnStart: {fileID: 0}
+    AudioOnExecute: {fileID: 0}
+  m_SpawnOnHeal: []
+  m_MovementPoints: 3
+  m_AbilityPoints: 10
+  m_Health: 10
+  m_Armor: 5
+  m_MagicalArmor: 5
